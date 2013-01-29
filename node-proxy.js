@@ -18,16 +18,14 @@
             headers: {
                 'Content-Type': "text/js"               // http headers to return
             }
-        }
-        ,
+        },
         "FileName.css": {
             regex: /.*?FileName[.]css.*/,
             replaceWithFile: WEB_ROOT + "/Pages/CSS/FileName.css",
             headers: {
                 'Content-Type': "text/css"
             }
-        }
-        ,
+        },
         "FileName.svc/ServiceName": {
             regex: /FileName.svc\/ServiceName/,
             headers: {
@@ -48,8 +46,7 @@
             ipAddress: '192.168.1.100',
             port: 26222,
             proxyMap: PROXY_MAP
-        }
-        ,
+        },
         "myHost2": {
             ipAddress: '192.168.1.101',
             port: 26222,
